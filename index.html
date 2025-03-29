@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MKTT - Desarrollo Web</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" type="image/png" href="assets/favicon.png" />
+        <link rel="apple-touch-icon" href="assets/favicon.png">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1CmV3I+vPElDAKypUUMbYcKTxM0AAfvk13FC9+ZkTlmXW0yzS6+KXRA1TLNHNU1mjT8r9doFJf0VYcUAGrV6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+      </head>      
+<body>
+  <header>
+    <div class="container">
+      <img src="assets/logo-mktt.png" alt="Logo MKTT" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Impulsa tu negocio<br>con una web que enamora</h1>
+      <p>Desarrollo web profesional para emprendedores modernos</p>
+      <a href="#services" class="btn-cta">Conocé mis servicios</a>
+    </div>
+  </section>
+   <!-- SOBRE MI -->
+   <section class="about">
+    <div class="about-text" data-aos="fade-right">
+      <h2>¿Quién soy?</h2>
+      <div class="about-card">
+        <div class="about-text">
+          <h3>Constanza Baeza</h3>
+          <ul class="skills-list">
+            <li><i class="fa-solid fa-laptop-code"></i> Ingeniera Informática</li>
+            <li><i class="fa-solid fa-screwdriver-wrench"></i> Full Stack & Soporte Técnico</li>
+            <li><i class="fa-solid fa-lightbulb"></i> Creativa & Resolutiva</li>
+            <li><i class="fa-solid fa-language"></i> Inglés fluido</li>
+          </ul>                
+          <p class="about-cta">Transformo ideas en sitios web que <strong>impactan</strong>.</p>
+          <a href="#contacto" class="btn-cta">Trabajemos juntos</a>
+        </div>
+        <div class="about-img" data-aos="fade-left">
+          <img src="assets/constanza-ai-portrait.png" alt="Constanza Baeza" />
+        </div>
+      </div>
+    </div>
+  </section>  
+    <!-- SERVICIOS -->
+    <section class="services" id="services">
+        <div class="services-container">
+          <h2>Servicios</h2>
+          <div class="service-cards">
+            <div class="card" data-aos="zoom-in">
+              <i class="fa-solid fa-globe"></i>
+              <h3>Landing Page</h3>
+              <p>Ideal para mostrar tu producto o servicio en una sola página impactante.</p>
+              <a href="#contacto" class="btn-cta">Lo quiero</a>
+            </div>
+            <div class="card" data-aos="zoom-in">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Sitio Web Profesional</h3>
+              <p>Web completa con varias secciones, adaptable y optimizada para todo dispositivo.</p>
+              <a href="#contacto" class="btn-cta">Lo necesito</a>
+            </div>
+            <div class="card" data-aos="zoom-in">
+              <i class="fa-solid fa-wrench"></i>
+              <h3>Mantenimiento Web</h3>
+              <p>Actualizaciones, soporte técnico, backups y todo lo que tu sitio necesita.</p>
+              <a href="#contacto" class="btn-cta">¡Contratar!</a>
+            </div>
+            <div class="card" data-aos="zoom-in">
+              <i class="fa-solid fa-shield-virus"></i>
+              <h3>Mantenimiento Técnico</h3>
+              <p>Limpieza de hardware, eliminación de virus y malware para dejar tu equipo como nuevo.</p>
+              <a href="#contacto" class="btn-cta">Solicitar ayuda</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!-- CLIENTES -->
+    <section class="clients">
+        <div class="client" data-aos="flip-left">
+          <h2>Actualmente trabajo con</h2>
+          <div class="client-logos">
+            <div class="client">
+              <img src="assets/logo-bioriego.png" alt="BioRiego">
+            </div>
+            <div class="client">
+              <img src="assets/logo-valmor.png" alt="Valmor">
+            </div>
+            <div class="client">
+              <img src="assets/logo-pgr.png" alt="P.G.R. Instalaciones">
+            </div>
+            <div class="client">
+                <img src="assets/logo-mktt.png" alt="MakimaTattoo">
+              </div>
+          </div>
+        </div>
+      </section>
+        <!-- CONTACTANOS -->
+      <section class="contact" id="contacto">
+        <form class="contact-form" id="mktt-form" data-aos="fade-up">
+          <h2>Contacto</h2>
+          <p>¿Tenés una idea o necesitás ayuda con tu sitio o equipo? ¡Escribime!</p>
+          
+          <form class="contact-form" id="mktt-form">
+            <input type="text" name="name" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu email" required>
+            <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+            <button type="submit" class="btn-cta">Enviar mensaje</button>
+            <p id="form-status" class="form-status"></p>
+          </form>          
+        </div>
+      </section>
+      <div class="social-fixed">
+        <a href="https://formspree.io/f/xgvalyap" target="_blank" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/56968167750" target="_blank" title="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="mailto:servicesmktt@gmail.com" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+      <script src="js/main.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            duration: 1000, // duración de las animaciones en ms
+            once: true // solo se anima una vez
+        });
+        </script>
+</body>
+<footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2025 MKTT services</p>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/mktt.services/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/56968167750" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:servicesmktt@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+</html>
